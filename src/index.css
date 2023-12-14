@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+#root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f2f1eb;
+  font-family: "press start 2p", sans-serif;
+  background-image: url("./assets/grass.png");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #3465ae;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  min-height: 100vh;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100vw;
+  }
+}
+
+.poke-card-container {
+  border-radius: 18px;
+  color: black;
+  display: flex;
+  margin-bottom: 4px;
+  background-color: #f8f697;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+.poke-card-container:hover {
+  transform: scale(1.05);
+  background-color: #ffcb03;
+}
+
+.absolute-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  margin: 0;
+}
