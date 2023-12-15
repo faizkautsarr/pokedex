@@ -140,7 +140,7 @@ export default function App() {
                 "https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
               }
             ></img>
-            <div> Pokédex by @faizkautsarr</div>
+            <div> Pokédex by @faizkautsarr.</div>
           </div>
 
           {pokes.map((poke, id) => (
