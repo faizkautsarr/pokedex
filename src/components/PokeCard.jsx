@@ -4,7 +4,7 @@ export default function PokeCard({ id, name, imageUrl, handeClickPokeCard }) {
   };
   return (
     <div onClick={handleClick} className="poke-card-container">
-      <img src={imageUrl} width={"50px"}></img>
+      <img src={imageUrl} width={30} style={{ padding: "4px" }}></img>
 
       <div
         style={{
