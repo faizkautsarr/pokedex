@@ -1,17 +1,16 @@
+import "../assets/css/pokeCard.css";
 export default function PokeCard({ id, name, imageUrl, handeClickPokeCard }) {
   const handleClick = () => {
     handeClickPokeCard(id);
   };
   return (
     <div onClick={handleClick} className="poke-card-container">
-      <img src={imageUrl} width={30} style={{ padding: "4px" }}></img>
+      <img src={imageUrl} height={30}></img>
 
       <div
         style={{
-          padding: 0,
-          margin: 0,
           fontSize: "10px",
-          flexGrow: 0,
+          marginLeft: "4px",
         }}
       >
         {name}

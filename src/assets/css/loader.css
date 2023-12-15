@@ -1,0 +1,7 @@
+.loader-wrapper {
+  font-size: 12px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

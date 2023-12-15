@@ -1,0 +1,16 @@
+.poke-card-container {
+  border-radius: 18px;
+  height: 34;
+  color: black;
+  display: flex;
+  padding: 4px;
+  margin-bottom: 4px;
+  background-color: #f4c25e;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+.poke-card-container:hover {
+  transform: scale(1.05);
+  background-color: #ffcb03;
+}

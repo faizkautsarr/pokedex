@@ -1,0 +1,94 @@
+.poke-detail-name {
+  font-size: 20px;
+}
+
+.poke-detail-id {
+  font-size: 16px;
+  font-weight: 1000;
+  margin-bottom: 4px;
+  color: #616161;
+}
+
+.poke-detail-section-title {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.poke-detail-type-wrapper {
+  border-radius: 4px;
+  margin: 0 4px 4px 0;
+  font-size: 12px;
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: 1px solid black;
+}
+
+.poke-detail-ability-wrapper {
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 4px;
+  margin: 0 4px 4px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: 1px solid black;
+}
+
+.poke-detail-section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.poke-detail-stat-bar {
+  height: 30px;
+  background-color: #3cd022;
+}
+
+.poke-detail-stat-container {
+  position: relative;
+  background-color: transparent;
+  height: 30px;
+  font-size: 12px;
+  display: flex;
+  margin: 4px;
+  flex-direction: row;
+  align-items: center;
+  width: 130px;
+  border: 1px solid black;
+}
+
+.poke-detail-stat-detail {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  font-size: 10px;
+  padding-left: 4px;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  color: black;
+  height: 30px;
+  width: 130px;
+  background-color: transparent;
+}
+
+.poke-detail-info-wrapper {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.poke-detail-info-container {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
